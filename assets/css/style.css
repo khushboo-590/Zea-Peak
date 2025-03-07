@@ -155,16 +155,20 @@
     border-radius: 120px;
     padding: 15px 20px;
 }
-.my-90{
+
+.my-90 {
     margin-top: 90px;
     margin-bottom: 90px;
 }
+
 .gap-35 {
     gap: 35px;
 }
-.mt-80{
+
+.mt-80 {
     margin-top: 80px;
 }
+
 .box {
     width: 73px;
     height: 73px;
@@ -186,8 +190,8 @@
 
     .box {
         box-shadow: 0px 4px 31.4px 0px #5793E9;
-         background:
-                linear-gradient(180deg, #5E65D4 -9.38%, #5692E8 55.41%); 
+        background:
+            linear-gradient(180deg, #5E65D4 -9.38%, #5692E8 55.41%);
     }
 }
 
@@ -195,11 +199,13 @@
     display: block !important;
     transition: all 200ms linear;
 }
+
 .mini-card:hover .mini-card-content {
-   .pt-20{
-    padding-top: 5px;
-   }
+    .pt-20 {
+        padding-top: 5px;
+    }
 }
+
 .content-1 {
     display: none;
 }
@@ -207,34 +213,98 @@
 .mb-24 {
     margin-bottom: 24px;
 }
-.pt-20{padding-top: 20px;}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
 /* -------------------section-5------------------ */
-.bg-raduis{
+.bg-raduis {
     border-radius: 16px;
     padding-left: 50px;
 }
-.max-w-512{
+
+.max-w-512 {
     max-width: 512px;
 }
-.gap-21{
+
+.gap-21 {
     gap: 21px;
 }
-.max-w-491{
+
+.max-w-491 {
     max-width: 491px;
 }
-.oppicity-1{
-opacity: 80%;
+
+.oppicity-1 {
+    opacity: 80%;
 
 }
-.max-w-1144{
+
+.max-w-1144 {
     max-width: 1144px;
 }
-.dots{
+
+.dots {
     top: 20%;
     left: 0;
     position: absolute;
 }
-.dots-1{
-top: 20%;
+
+.dots-1 {
+    top: 20%;
     right: 0;
-    position: absolute;}
+    position: absolute;
+}
+
+/* --------------------section-6--------------------- */
+.max-w-735 {
+    max-width: 735px;
+}
+
+.max-w-675 {
+    max-width: 675px;
+}
+
+.bg-mountain-2 {
+    background-image: url(/assets/images/mountaine2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 361px;
+}
+
+.max-w-838 {
+    max-width: 838px;
+    background: #FFFFFF;
+    border: 3px solid #A68272;
+    border-radius: 17px;
+    padding: 38px 42px;
+}
+
+.col-box {
+    width: 365px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    padding: 20px 23px;
+}
+
+.icon-box {
+    border-radius: 14px;
+    width: 73px;
+    height: 73px;
+    background:
+        linear-gradient(0deg, #A68272, #A68272);
+
+}
+
+.col-box:hover {
+    .icon-box {
+        box-shadow: 0px 4px 31.4px 0px #DAAF95;
+    }
+}
+.pb-60{
+    padding-bottom: 60px;
+}

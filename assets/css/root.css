@@ -5,6 +5,8 @@
     --brown-color: #A68272;
     --light-brown: #5A5656;
     --black-color:#0C0F26;
+    --light-black: #333333;
+    --light-white: #F7F3F0;
 
     /* --------------------size---------------- */
     --text-xl:75px;
@@ -40,6 +42,12 @@
 }
 .fc-black{
     color: var(--black-color);
+}
+.bg-light-white{
+    background: var(--light-white);
+}
+.fc-light-black{
+    color: var(--light-black);
 }
 .bg-skin{
     background: var(--skin-color);
