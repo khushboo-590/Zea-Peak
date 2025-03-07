@@ -49,6 +49,9 @@
 .fc-light-black{
     color: var(--light-black);
 }
+.bg-light-black{
+    background: var(--light-black);
+}
 .bg-skin{
     background: var(--skin-color);
 }
