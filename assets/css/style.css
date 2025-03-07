@@ -208,3 +208,33 @@
     margin-bottom: 24px;
 }
 .pt-20{padding-top: 20px;}
+/* -------------------section-5------------------ */
+.bg-raduis{
+    border-radius: 16px;
+    padding-left: 50px;
+}
+.max-w-512{
+    max-width: 512px;
+}
+.gap-21{
+    gap: 21px;
+}
+.max-w-491{
+    max-width: 491px;
+}
+.oppicity-1{
+opacity: 80%;
+
+}
+.max-w-1144{
+    max-width: 1144px;
+}
+.dots{
+    top: 20%;
+    left: 0;
+    position: absolute;
+}
+.dots-1{
+top: 20%;
+    right: 0;
+    position: absolute;}
