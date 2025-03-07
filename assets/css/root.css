@@ -3,10 +3,13 @@
     --white-color:#FFFFFF;
     --skin-color: #DFBCA6;
     --brown-color: #A68272;
+    --light-brown: #5A5656;
+    --black-color:#0C0F26;
 
     /* --------------------size---------------- */
     --text-xl:75px;
     --text-lg:64px;
+    --text-md-1:24px;
     --text-md:20px;
     --text-sm:18px;
     --text-base:16px;
@@ -26,8 +29,17 @@
 .fs-18{
     font-size: var(--text-sm);
 }
+.fs-24{
+    font-size: var(--text-md-1);
+}
 .fc-white{
     color: var(--white-color);
+}
+.bg-white{
+    background: var(--white-color);
+}
+.fc-black{
+    color: var(--black-color);
 }
 .bg-skin{
     background: var(--skin-color);
@@ -35,3 +47,5 @@
 .bg-brown{
     background: var(--brown-color);
 }
+.fc-light-brown{
+color: var(--light-brown);}

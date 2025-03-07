@@ -1,94 +1,210 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url(/assets/css/root.css);
-.bg-img{
-    background-image: url(/assets/images/bg-img.png);
+
+.font-family {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.max-w-1140 {
+    max-width: 1140px;
+}
+
+.font-normal {
+    font-style: normal;
+}
+
+.max-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.py-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.text-capital {
+    text-transform: capitalize;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.lh-130 {
+    line-height: 130%;
+}
+
+.lh-23 {
+    line-height: 23px;
+}
+
+.lh-150 {
+    line-height: 150%;
+}
+
+.lh-28 {
+    line-height: 28px;
+
+}
+
+.max-w-1032 {
+    max-width: 1032px;
+}
+
+.btn {
+    border-radius: 127px;
+    border: 1px solid #FFFFFF;
+    padding: 25px 50px;
+
+}
+
+/* -----------------------section-1-------------------- */
+.about {
+    padding: 5px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 31px;
+}
+
+.max-w-594 {
+    max-width: 594px;
+}
+
+.max-w-577 {
+    max-width: 577px;
+}
+
+.oppicity {
+    opacity: 70%;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+/* ------------------section-2------------------ */
+
+.my-70 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.my-file {
+    gap: 120px;
+}
+
+/* ------------------section-3------------------ */
+/* ------------------section-4------------------ */
+.bg-mountain {
+    background-image: url(/assets/images/bg-mountain.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    top:0;
+    min-height: 900px;
 }
-.font-family{
-    font-family: "Ubuntu", sans-serif;
-}
-.font-italic{
-    font-style: italic;
-}
-.fw-300
-{
-    font-weight: 300;
-}
-.fw-400{
-    font-weight: 400;
-}
-.fw-700{
-    font-weight: 700;
-}
-.fw-500{
-    font-weight: 500;
-}
-.max-w-1140{
-    max-width: 1140px;
-}
-.font-normal{
-    font-style: normal;
-}
-.max-auto{
-    margin-left: auto;
-    margin-right: auto;
-}
-.py-50{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.text-capital{
-            text-transform: capitalize;
-}
-.text-center{
-    text-align: center;
-}
-.lh-130{
-        line-height: 130%;
-}
-.lh-23{
-    line-height: 23px;
-}
-.lh-150{
-    line-height: 150%;
-}
-.max-w-1032{
-    max-width: 1032px;
-}
-.btn{
-    border-radius: 127px;
-    border: 1px solid #FFFFFF;
-    padding: 25px 50px;
-       
-}
-/* -----------------------section-1-------------------- */
-.about{
-        padding: 5px 20px;
-        border: 1px solid #FFFFFF;
-        border-radius: 31px;
-}
-.max-w-594{
-    max-width: 594px;
-}
-.max-w-577{
-    max-width: 577px;
-}
-.oppicity{
-    opacity: 70%;
-}
-.mt-70{
-    margin-top: 70px;
-}
-/* ------------------section-1------------------ */
 
-.my-70{
-    margin-top: 70px;
-    margin-bottom: 70px;
+.max-w-738 {
+    max-width: 739px;
 }
-.my-file{
-    gap:120px;
+
+.max-w-636 {
+    max-width: 636px;
 }
+
+.card {
+
+    background: #DFBCA6;
+    border: 3px solid #A68272;
+    border-radius: 17px;
+    padding: 21px 25px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.mini-card {
+    max-width: 586px;
+    background: #FFFFFF;
+    border: 1px solid #A68272;
+    border-radius: 120px;
+    padding: 15px 20px;
+}
+.my-90{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.gap-35 {
+    gap: 35px;
+}
+.mt-80{
+    margin-top: 80px;
+}
+.box {
+    width: 73px;
+    height: 73px;
+    border-radius: 14px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    /* background:
+        linear-gradient(180deg, #5E65D4 -9.38%, #5692E8 55.41%); */
+}
+
+.mini-card-content {
+    max-width: 419px;
+
+}
+
+.mini-card:hover {
+    border-radius: 16px;
+    padding: 26px;
+
+    .box {
+        box-shadow: 0px 4px 31.4px 0px #5793E9;
+         background:
+                linear-gradient(180deg, #5E65D4 -9.38%, #5692E8 55.41%); 
+    }
+}
+
+.mini-card:hover .content-1 {
+    display: block !important;
+    transition: all 200ms linear;
+}
+.mini-card:hover .mini-card-content {
+   .pt-20{
+    padding-top: 5px;
+   }
+}
+.content-1 {
+    display: none;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+.pt-20{padding-top: 20px;}
