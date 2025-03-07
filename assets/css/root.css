@@ -1,6 +1,21 @@
 :root{
     /* -----------------color-------------- */
+    --white-color:#FFFFFF;
+    --skin-color: #DFBCA6;
 
     /* --------------------size---------------- */
-    
+    --text-xl:75px;
+    --text-sm:20px;
+}
+.fs-75{
+    font-size: var(--text-xl);
+}
+.fs-20{
+    font-size: var(--text-sm);
+}
+.fc-white{
+    color: var(--white-color);
+}
+.bg-skin{
+    background: var(--skin-color);
 }
