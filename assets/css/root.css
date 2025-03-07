@@ -2,15 +2,28 @@
     /* -----------------color-------------- */
     --white-color:#FFFFFF;
     --skin-color: #DFBCA6;
+    --brown-color: #A68272;
 
     /* --------------------size---------------- */
     --text-xl:75px;
-    --text-sm:20px;
+    --text-lg:64px;
+    --text-md:20px;
+    --text-sm:18px;
+    --text-base:16px;
 }
 .fs-75{
     font-size: var(--text-xl);
 }
+.fs-64{
+    font-size: var(--text-lg);
+}
 .fs-20{
+    font-size: var(--text-md);
+}
+.fs-16{
+    font-size: var(--text-base);
+}
+.fs-18{
     font-size: var(--text-sm);
 }
 .fc-white{
@@ -18,4 +31,7 @@
 }
 .bg-skin{
     background: var(--skin-color);
+}
+.bg-brown{
+    background: var(--brown-color);
 }
