@@ -83,3 +83,12 @@
 .mt-70{
     margin-top: 70px;
 }
+/* ------------------section-1------------------ */
+
+.my-70{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.my-file{
+    gap:120px;
+}
