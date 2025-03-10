@@ -83,6 +83,23 @@
 
 }
 
+.hero-bg {
+    background-image: url(/assets/images/hero\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 /* -----------------------section-1-------------------- */
 .about {
     padding: 5px 20px;
@@ -139,9 +156,10 @@
     left: 12%;
     position: absolute;
 }
-.icon-1{
-    top: 28%;
-        left: 14%;
+
+.icon-1 {
+    top: 18%;
+    left: 6%;
 }
 
 .images-icon-box {
@@ -154,14 +172,17 @@
 .gap-13 {
     gap: 13px;
 }
-.icon-2{
-    left: 39%;
-    top: 21%;
+
+.icon-2 {
+    left: 6%;
+    top: 12%;
 }
-.icon-3{
-    left: 65%;
-    top:14%;
+
+.icon-3 {
+    left: 7%;
+    top: 4%;
 }
+
 /* ------------------section-4------------------ */
 .bg-mountain {
     background-image: url(/assets/images/bg-mountain.png);
@@ -332,7 +353,7 @@
 }
 
 .col-box {
-    width: 365px;
+    max-width: 365px;
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 16px;
@@ -414,8 +435,98 @@
     padding-top: 50px;
 }
 
+
+@media(max-width:992px) {
+    .center {
+        text-align: center;
+    }
+
+    .md-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .lg-center {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .mini-card {
+        padding: 10px 15px;
+    }
+
+    .box {
+        margin-left: 10px;
+        width: 53px;
+    }
+
+    .gap-35 {
+        gap: 20px;
+    }
+
+    .bg-raduis {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dots,
+    .dots-1 {
+        display: none;
+    }
+
+    .max-w-838 {
+        /* display: none; */
+        border: none;
+        background: none;
+        max-width: none;
+    }
+
+    .col-box {
+        padding: 5px;
+    }
+
+    .gap-21 {
+        gap: 21px;
+    }
+
+    /* .images-icon-box {
+        width: 30px;
+                height: 20px
+    } */
+
+}
+
 @media(max-width:768px) {
     .mb-20 {
         margin-bottom: 20px;
     }
+
+    .top-margin {
+        margin-top: 20px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .mini-card {
+        padding: 5px 10px;
+    }
+
+    .gap-35 {
+        gap: 5px;
+    }
+    .box {
+        margin-left: 10px;
+        width: 43px;
+    }
+    .photo{
+        display: none;
+    }
+        .silder {
+            display: flex;
+            gap: 10px;
+        }
+        
 }
