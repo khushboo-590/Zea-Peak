@@ -207,6 +207,7 @@
     border: 3px solid #A68272;
     border-radius: 17px;
     padding: 21px 25px;
+        max-width: 636px;
 }
 
 .position-relative {
@@ -239,13 +240,11 @@
 }
 
 .box {
-    width: 73px;
-    height: 73px;
+    width: 60px;
+    height: 60px;
     border-radius: 14px;
-    padding: 10px;
     background-color: #FFFFFF;
-    /* background:
-        linear-gradient(180deg, #5E65D4 -9.38%, #5692E8 55.41%); */
+   
 }
 
 .mini-card-content {
@@ -261,6 +260,7 @@
         box-shadow: 0px 4px 31.4px 0px #5793E9;
         background:
             linear-gradient(180deg, #5E65D4 -9.38%, #5692E8 55.41%);
+          
     }
 }
 
@@ -353,7 +353,7 @@
 }
 
 .col-box {
-    max-width: 365px;
+    /* max-width: 365px; */
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 16px;
@@ -425,6 +425,11 @@
         linear-gradient(0deg, #A68272, #A68272);
     backdrop-filter: blur(60.29999923706055px);
 }
+.footer-icon-box:hover{
+    background: #FFFFFF;}
+    .footer-icon-box:hover svg path{
+        fill: #A68272;
+    }
 
 .line {
 
@@ -434,6 +439,10 @@
 .pt-50 {
     padding-top: 50px;
 }
+.mt-30{
+    margin-top: 30px;
+}
+
 
 
 @media(max-width:992px) {
@@ -454,15 +463,16 @@
     .mini-card {
         padding: 10px 15px;
     }
-
+/* 
     .box {
         margin-left: 10px;
         width: 53px;
-    }
+      
+    } */
 
-    .gap-35 {
-        gap: 20px;
-    }
+ .mini-card:hover{
+    padding: 5px;
+ }
 
     .bg-raduis {
         padding-left: 10px;
@@ -474,25 +484,16 @@
         display: none;
     }
 
-    .max-w-838 {
-        /* display: none; */
-        border: none;
-        background: none;
-        max-width: none;
-    }
+
 
     .col-box {
-        padding: 5px;
+        padding: 10px;
     }
 
     .gap-21 {
         gap: 21px;
     }
 
-    /* .images-icon-box {
-        width: 30px;
-                height: 20px
-    } */
 
 }
 
@@ -511,22 +512,56 @@
     }
 
     .mini-card {
-        padding: 5px 10px;
+        padding:  10px;
     }
-
-    .gap-35 {
-        gap: 5px;
-    }
+.gap-35{
+    gap: 10px;
+}
+ 
+/* 
     .box {
         margin-left: 10px;
         width: 43px;
-    }
-    .photo{
+    } */
+
+    .photo {
         display: none;
     }
-        .silder {
-            display: flex;
-            gap: 10px;
-        }
-        
+
+    .silder {
+        display: flex;
+        gap: 70px;
+    }
+
+    .max-w-838 {
+        border: none;
+        background: none;
+        max-width: none;
+        padding: 0;
+        border-radius: none;
+    }
+
+    .gap-20 {
+        gap: 10px;
+    }
+.mt-30{
+    margin-top: 0;
+}
+.icon-1 {
+    top: 4%;
+    left: 6%;
+}
+.icon-2 {
+    top: 4%;
+    left: 6%;
+}
+.card{
+    padding: 10px;
+}
+}
+
+@media(max-width:576px) {
+    .gap-20 {
+        gap: 8px;
+    }
 }
