@@ -190,7 +190,6 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    min-height: 900px;
 }
 
 .max-w-738 {
@@ -338,7 +337,7 @@
 .bg-mountain-2 {
     background-image: url(/assets/images/mountaine2.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center;
     width: 100%;
     min-height: 361px;
